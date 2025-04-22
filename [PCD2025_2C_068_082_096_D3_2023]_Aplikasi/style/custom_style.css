@@ -1,0 +1,101 @@
+/* Import Google Font Quicksand */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+/* Global styles */
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #D8E2DC; /* Putih perak */
+}
+
+/* Main container */
+.stApp {
+    background: linear-gradient(to bottom right, #1B263B, #3C2F5F); /* Gradien biru tua ke ungu gelap */
+    min-height: 100vh;
+}
+
+
+
+/* Styling tab (navbar) */
+div.stTabs [data-baseweb="tab-list"] {
+    background-color: #1B263B; /* Biru tua */
+    border-radius: 8px;
+    padding: 5px;
+}
+
+div.stTabs [data-baseweb="tab"] {
+    color: #D8E2DC; /* Putih perak */
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+div.stTabs [data-baseweb="tab"][aria-selected="true"] {
+    background-color: #00B4D8; /* Biru neon */
+    color: #1B263B; /* Biru tua */
+}
+
+/* Buttons */
+button {
+    background-color: #00B4D8 !important; /* Biru neon */
+    color: #1B263B !important; /* Biru tua */
+    border-radius: 10px !important;
+    padding: 8px 16px !important;
+    border: none !important;
+    font-size: 14px !important;
+    transition: background-color 0.3s ease !important;
+}
+
+button:hover {
+    background-color: #48CAE4 !important; /* Biru neon lebih terang */
+}
+
+/* File uploader */
+div[data-testid="stFileUploader"] {
+    border: 2px dashed #00B4D8; /* Biru neon */
+    border-radius: 10px;
+    padding: 15px;
+    background: #3C2F5F; /* Ungu gel  /* Ungu gelap */
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: #D8E2DC; /* Putih perak */
+}
+
+/* Result box */
+div.result-box {
+    background: #2A3A57; /* Biru tua sedikit lebih terang */
+    border: 1px solid #00B4D8; /* Biru neon */
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+/* Markdown text */
+div[data-testid="stMarkdownContainer"] p {
+    color: #D8E2DC; /* Putih perak */
+    font-size: 15px;
+}
+
+/* Success message */
+div[data-testid="stSuccess"] {
+    background: #2A3A57; /* Biru tua sedikit lebih terang */
+    color: #D8E2DC; /* Putih perak */
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Warning message */
+div[data-testid="stWarning"] {
+    background: #3C2F5F; /* Ungu gelap */
+    color: #D8E2DC; /* Putih perak */
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Image captions */
+div[data-testid="stImage"] p {
+    color: #D8E2DC; /* Putih perak */
+    font-style: italic;
+}
