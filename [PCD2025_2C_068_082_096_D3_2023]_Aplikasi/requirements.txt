@@ -1,0 +1,13 @@
+streamlit
+tensorflow
+numpy
+pillow
+opencv-python
+torch
+torchvision
+facenet-pytorch
+scikit-learn
+seaborn
+pandas
+
+#pakai python 3.10 untuk virtual environmentnya 
